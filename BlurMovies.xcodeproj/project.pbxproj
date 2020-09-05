@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		110D80332500CC9A00835353 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110D80322500CC9A00835353 /* AppDelegate.swift */; };
+		110D80352500CC9A00835353 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110D80342500CC9A00835353 /* SceneDelegate.swift */; };
+		110D80372500CC9A00835353 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110D80362500CC9A00835353 /* MainVC.swift */; };
+		110D803A2500CC9A00835353 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 110D80382500CC9A00835353 /* Main.storyboard */; };
+		110D803D2500CC9A00835353 /* BlurMovies.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 110D803B2500CC9A00835353 /* BlurMovies.xcdatamodeld */; };
+		110D803F2500CCA000835353 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 110D803E2500CCA000835353 /* Assets.xcassets */; };
+		110D80422500CCA000835353 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 110D80402500CCA000835353 /* LaunchScreen.storyboard */; };
+		110D80532500CEED00835353 /* SF-Pro-Rounded-Ultralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 110D804A2500CEED00835353 /* SF-Pro-Rounded-Ultralight.otf */; };
+		110D80542500CEED00835353 /* SF-Pro-Rounded-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 110D804B2500CEED00835353 /* SF-Pro-Rounded-Medium.otf */; };
+		110D80552500CEED00835353 /* SF-Pro-Rounded-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 110D804C2500CEED00835353 /* SF-Pro-Rounded-Black.otf */; };
+		110D80562500CEED00835353 /* SF-Pro-Rounded-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 110D804D2500CEED00835353 /* SF-Pro-Rounded-Heavy.otf */; };
+		110D80572500CEED00835353 /* SF-Pro-Rounded-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 110D804E2500CEED00835353 /* SF-Pro-Rounded-Light.otf */; };
+		110D80582500CEED00835353 /* SF-Pro-Rounded-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 110D804F2500CEED00835353 /* SF-Pro-Rounded-Semibold.otf */; };
+		110D80592500CEED00835353 /* SF-Pro-Rounded-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 110D80502500CEED00835353 /* SF-Pro-Rounded-Bold.otf */; };
+		110D805A2500CEED00835353 /* SF-Pro-Rounded-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 110D80512500CEED00835353 /* SF-Pro-Rounded-Thin.otf */; };
+		110D805B2500CEED00835353 /* SF-Pro-Rounded-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 110D80522500CEED00835353 /* SF-Pro-Rounded-Regular.otf */; };
+		110D80652500E23200835353 /* CategoriesCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110D80632500E23200835353 /* CategoriesCells.swift */; };
+		110D80662500E23200835353 /* CategoriesCells.xib in Resources */ = {isa = PBXBuildFile; fileRef = 110D80642500E23200835353 /* CategoriesCells.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		110D802F2500CC9A00835353 /* BlurMovies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlurMovies.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		110D80322500CC9A00835353 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		110D80342500CC9A00835353 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		110D80362500CC9A00835353 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		110D80392500CC9A00835353 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		110D803C2500CC9A00835353 /* BlurMovies.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BlurMovies.xcdatamodel; sourceTree = "<group>"; };
+		110D803E2500CCA000835353 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		110D80412500CCA000835353 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		110D80432500CCA000835353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		110D804A2500CEED00835353 /* SF-Pro-Rounded-Ultralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Rounded-Ultralight.otf"; path = "Blurred Movie/blurredfilm/Font/SF Pro Rounded/SF-Pro-Rounded-Ultralight.otf"; sourceTree = SOURCE_ROOT; };
+		110D804B2500CEED00835353 /* SF-Pro-Rounded-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Rounded-Medium.otf"; path = "Blurred Movie/blurredfilm/Font/SF Pro Rounded/SF-Pro-Rounded-Medium.otf"; sourceTree = SOURCE_ROOT; };
+		110D804C2500CEED00835353 /* SF-Pro-Rounded-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Rounded-Black.otf"; path = "Blurred Movie/blurredfilm/Font/SF Pro Rounded/SF-Pro-Rounded-Black.otf"; sourceTree = SOURCE_ROOT; };
+		110D804D2500CEED00835353 /* SF-Pro-Rounded-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Rounded-Heavy.otf"; path = "Blurred Movie/blurredfilm/Font/SF Pro Rounded/SF-Pro-Rounded-Heavy.otf"; sourceTree = SOURCE_ROOT; };
+		110D804E2500CEED00835353 /* SF-Pro-Rounded-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Rounded-Light.otf"; path = "Blurred Movie/blurredfilm/Font/SF Pro Rounded/SF-Pro-Rounded-Light.otf"; sourceTree = SOURCE_ROOT; };
+		110D804F2500CEED00835353 /* SF-Pro-Rounded-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Rounded-Semibold.otf"; path = "Blurred Movie/blurredfilm/Font/SF Pro Rounded/SF-Pro-Rounded-Semibold.otf"; sourceTree = SOURCE_ROOT; };
+		110D80502500CEED00835353 /* SF-Pro-Rounded-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Rounded-Bold.otf"; path = "Blurred Movie/blurredfilm/Font/SF Pro Rounded/SF-Pro-Rounded-Bold.otf"; sourceTree = SOURCE_ROOT; };
+		110D80512500CEED00835353 /* SF-Pro-Rounded-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Rounded-Thin.otf"; path = "Blurred Movie/blurredfilm/Font/SF Pro Rounded/SF-Pro-Rounded-Thin.otf"; sourceTree = SOURCE_ROOT; };
+		110D80522500CEED00835353 /* SF-Pro-Rounded-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Rounded-Regular.otf"; path = "Blurred Movie/blurredfilm/Font/SF Pro Rounded/SF-Pro-Rounded-Regular.otf"; sourceTree = SOURCE_ROOT; };
+		110D805F2500D36200835353 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		110D80632500E23200835353 /* CategoriesCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesCells.swift; sourceTree = "<group>"; };
+		110D80642500E23200835353 /* CategoriesCells.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoriesCells.xib; sourceTree = "<group>"; };
+		118F712025037DBD007621FF /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Main.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		110D802C2500CC9A00835353 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		110D80262500CC9A00835353 = {
+			isa = PBXGroup;
+			children = (
+				110D80312500CC9A00835353 /* BlurMovies */,
+				110D80302500CC9A00835353 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		110D80302500CC9A00835353 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				110D802F2500CC9A00835353 /* BlurMovies.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		110D80312500CC9A00835353 /* BlurMovies */ = {
+			isa = PBXGroup;
+			children = (
+				110D80322500CC9A00835353 /* AppDelegate.swift */,
+				110D80342500CC9A00835353 /* SceneDelegate.swift */,
+				110D80362500CC9A00835353 /* MainVC.swift */,
+				110D80382500CC9A00835353 /* Main.storyboard */,
+				110D803E2500CCA000835353 /* Assets.xcassets */,
+				110D80402500CCA000835353 /* LaunchScreen.storyboard */,
+				110D80432500CCA000835353 /* Info.plist */,
+				110D80492500CED800835353 /* Fonts */,
+				110D803B2500CC9A00835353 /* BlurMovies.xcdatamodeld */,
+				110D80672500E23F00835353 /* TableCells */,
+			);
+			path = BlurMovies;
+			sourceTree = "<group>";
+		};
+		110D80492500CED800835353 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				110D804C2500CEED00835353 /* SF-Pro-Rounded-Black.otf */,
+				110D80502500CEED00835353 /* SF-Pro-Rounded-Bold.otf */,
+				110D804D2500CEED00835353 /* SF-Pro-Rounded-Heavy.otf */,
+				110D804E2500CEED00835353 /* SF-Pro-Rounded-Light.otf */,
+				110D804B2500CEED00835353 /* SF-Pro-Rounded-Medium.otf */,
+				110D80522500CEED00835353 /* SF-Pro-Rounded-Regular.otf */,
+				110D804F2500CEED00835353 /* SF-Pro-Rounded-Semibold.otf */,
+				110D80512500CEED00835353 /* SF-Pro-Rounded-Thin.otf */,
+				110D804A2500CEED00835353 /* SF-Pro-Rounded-Ultralight.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		110D80672500E23F00835353 /* TableCells */ = {
+			isa = PBXGroup;
+			children = (
+				110D80632500E23200835353 /* CategoriesCells.swift */,
+				110D80642500E23200835353 /* CategoriesCells.xib */,
+			);
+			path = TableCells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		110D802E2500CC9A00835353 /* BlurMovies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 110D80462500CCA000835353 /* Build configuration list for PBXNativeTarget "BlurMovies" */;
+			buildPhases = (
+				110D802B2500CC9A00835353 /* Sources */,
+				110D802C2500CC9A00835353 /* Frameworks */,
+				110D802D2500CC9A00835353 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlurMovies;
+			productName = BlurMovies;
+			productReference = 110D802F2500CC9A00835353 /* BlurMovies.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		110D80272500CC9A00835353 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Umut Sever";
+				TargetAttributes = {
+					110D802E2500CC9A00835353 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 110D802A2500CC9A00835353 /* Build configuration list for PBXProject "BlurMovies" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				tr,
+			);
+			mainGroup = 110D80262500CC9A00835353;
+			productRefGroup = 110D80302500CC9A00835353 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				110D802E2500CC9A00835353 /* BlurMovies */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		110D802D2500CC9A00835353 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				110D80662500E23200835353 /* CategoriesCells.xib in Resources */,
+				110D80422500CCA000835353 /* LaunchScreen.storyboard in Resources */,
+				110D80572500CEED00835353 /* SF-Pro-Rounded-Light.otf in Resources */,
+				110D80542500CEED00835353 /* SF-Pro-Rounded-Medium.otf in Resources */,
+				110D80552500CEED00835353 /* SF-Pro-Rounded-Black.otf in Resources */,
+				110D803F2500CCA000835353 /* Assets.xcassets in Resources */,
+				110D805B2500CEED00835353 /* SF-Pro-Rounded-Regular.otf in Resources */,
+				110D80532500CEED00835353 /* SF-Pro-Rounded-Ultralight.otf in Resources */,
+				110D80562500CEED00835353 /* SF-Pro-Rounded-Heavy.otf in Resources */,
+				110D80582500CEED00835353 /* SF-Pro-Rounded-Semibold.otf in Resources */,
+				110D805A2500CEED00835353 /* SF-Pro-Rounded-Thin.otf in Resources */,
+				110D803A2500CC9A00835353 /* Main.storyboard in Resources */,
+				110D80592500CEED00835353 /* SF-Pro-Rounded-Bold.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		110D802B2500CC9A00835353 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				110D80372500CC9A00835353 /* MainVC.swift in Sources */,
+				110D80332500CC9A00835353 /* AppDelegate.swift in Sources */,
+				110D80652500E23200835353 /* CategoriesCells.swift in Sources */,
+				110D80352500CC9A00835353 /* SceneDelegate.swift in Sources */,
+				110D803D2500CC9A00835353 /* BlurMovies.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		110D80382500CC9A00835353 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				110D80392500CC9A00835353 /* Base */,
+				118F712025037DBD007621FF /* tr */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		110D80402500CCA000835353 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				110D80412500CCA000835353 /* Base */,
+				110D805F2500D36200835353 /* tr */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		110D80442500CCA000835353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		110D80452500CCA000835353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		110D80472500CCA000835353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89685536Y6;
+				INFOPLIST_FILE = BlurMovies/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.umutsever.BlurMovies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		110D80482500CCA000835353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89685536Y6;
+				INFOPLIST_FILE = BlurMovies/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.umutsever.BlurMovies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		110D802A2500CC9A00835353 /* Build configuration list for PBXProject "BlurMovies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				110D80442500CCA000835353 /* Debug */,
+				110D80452500CCA000835353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		110D80462500CCA000835353 /* Build configuration list for PBXNativeTarget "BlurMovies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				110D80472500CCA000835353 /* Debug */,
+				110D80482500CCA000835353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		110D803B2500CC9A00835353 /* BlurMovies.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				110D803C2500CC9A00835353 /* BlurMovies.xcdatamodel */,
+			);
+			currentVersion = 110D803C2500CC9A00835353 /* BlurMovies.xcdatamodel */;
+			path = BlurMovies.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 110D80272500CC9A00835353 /* Project object */;
+}
