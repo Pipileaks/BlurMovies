@@ -3,13 +3,13 @@
 "JE2-gW-tUp.text" = "Blur Film";
 
 /* Class = "UILabel"; text = "Test your movie geekness!"; ObjectID = "YnH-Ny-INu"; */
-"YnH-Ny-INu.text" = "Test your movie geekness!";
+"YnH-Ny-INu.text" = "Film bilgini test et!";
 
 /* Class = "UITabBarItem"; title = "Play Now"; ObjectID = "acv-g3-hEG"; */
-"acv-g3-hEG.title" = "Play Now";
+"acv-g3-hEG.title" = "Şimdi Oyna";
 
 /* Class = "UIButton"; normalTitle = "Start"; ObjectID = "pcY-sv-Qnc"; */
-"pcY-sv-Qnc.normalTitle" = "Start";
+"pcY-sv-Qnc.normalTitle" = "Başla";
 
 /* Class = "UITabBarItem"; title = "Highest Scores"; ObjectID = "ui9-lD-KXl"; */
-"ui9-lD-KXl.title" = "Highest Scores";
+"ui9-lD-KXl.title" = "Yüksek Skorlar";

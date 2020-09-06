@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Pro-Rounded-Bold.otf">
+            <string>SFProRounded-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Categories" id="KGk-i7-Jjw" customClass="CategoriesCells" customModule="BlurMovies" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="349" height="66"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="349" height="66"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jwf-ks-607">
+                        <rect key="frame" x="0.0" y="0.0" width="349" height="56"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="t2U-dY-Eji">
+                                <rect key="frame" x="19" y="13" width="30" height="30"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mxH-Ww-VO9">
+                                <rect key="frame" x="72" y="21" width="242" height="16"/>
+                                <fontDescription key="fontDescription" name="SFProRounded-Bold" family="SF Pro Rounded" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow" translatesAutoresizingMaskIntoConstraints="NO" id="eIQ-JN-2lj">
+                                <rect key="frame" x="333" y="21" width="9" height="15"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="t2U-dY-Eji" firstAttribute="top" secondItem="Jwf-ks-607" secondAttribute="top" constant="13" id="CIe-21-iKR"/>
+                            <constraint firstAttribute="bottom" secondItem="mxH-Ww-VO9" secondAttribute="bottom" constant="19" id="Luc-Dm-Mtr"/>
+                            <constraint firstAttribute="bottom" secondItem="eIQ-JN-2lj" secondAttribute="bottom" constant="20" id="T0M-es-aBS"/>
+                            <constraint firstItem="t2U-dY-Eji" firstAttribute="leading" secondItem="Jwf-ks-607" secondAttribute="leading" constant="19" id="VKe-V5-HDi"/>
+                            <constraint firstAttribute="trailing" secondItem="eIQ-JN-2lj" secondAttribute="trailing" constant="7" id="bs9-Ce-Uln"/>
+                            <constraint firstItem="eIQ-JN-2lj" firstAttribute="top" secondItem="Jwf-ks-607" secondAttribute="top" constant="21" id="dY7-3s-Be1"/>
+                            <constraint firstAttribute="bottom" secondItem="t2U-dY-Eji" secondAttribute="bottom" constant="13" id="eP0-Sg-ado"/>
+                            <constraint firstItem="mxH-Ww-VO9" firstAttribute="leading" secondItem="t2U-dY-Eji" secondAttribute="trailing" constant="23" id="vaP-nd-OcA"/>
+                            <constraint firstItem="mxH-Ww-VO9" firstAttribute="top" secondItem="Jwf-ks-607" secondAttribute="top" constant="21" id="w8m-U9-TMc"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="Jwf-ks-607" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="3VP-Vl-Fgt"/>
+                    <constraint firstAttribute="trailing" secondItem="Jwf-ks-607" secondAttribute="trailing" id="9sB-c4-OQx"/>
+                    <constraint firstItem="Jwf-ks-607" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Spw-5j-HsJ"/>
+                    <constraint firstAttribute="bottom" secondItem="Jwf-ks-607" secondAttribute="bottom" constant="10" id="dtk-6H-Vpb"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="images" destination="t2U-dY-Eji" id="d8Q-PI-LWM"/>
+                <outlet property="titles" destination="mxH-Ww-VO9" id="UvW-8C-hK7"/>
+            </connections>
+            <point key="canvasLocation" x="132.60869565217394" y="153.34821428571428"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="arrow" width="9" height="15"/>
+    </resources>
+</document>

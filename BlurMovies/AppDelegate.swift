@@ -80,3 +80,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+extension String {
+    var localized: String {
+        return NSLocalizedString(self, comment: "")
+    }
+}
